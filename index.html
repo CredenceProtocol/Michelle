@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Countdown Section -->
+  <div id="countdown" class="center">
+    <h1 id="count-number">5</h1>
+  </div>
+
+  <!-- Splash Screen -->
+  <center><div id="splash" class="center hidden">
+    <h4 style="" class="splash-text"> </br></br></br></br></br></br></br></br></br> Happy Birthday My Darling. </h4>
+  </div></center>
+
+  <!-- Image Gallery Section -->
+  <div id="gallery" class="hidden">
+    <audio id="birthdaySong" autoplay loop>
+      <source src="happy_birthday.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <div class="image-container">
+      <img src="1.png" alt="Memory 1">
+      <img src="2.png" alt="Memory 2">
+      <img src="3.png" alt="Memory 3">
+      <img src="4.png" alt="Memory 2">
+      <img src="5.png" alt="Memory 3">
+      <img src="6.png" alt="Memory 1">
+      <img src="7.png" alt="Memory 2">
+      <img src="8.png" alt="Memory 3">
+      <img src="9.png" alt="Memory 2">
+      <img src="10.png" alt="Memory 3">
+      <img src="11.png" alt="Memory 2">
+    </div>
+  </div>
+  
+ 
+ <!-- Epistle Button (Appears after images finish) -->
+<div id="epistleButton" class="hidden">
+  <button onclick="scrollToEpistle()">For My Darling</button>
+</div>
+
+<!-- Epistle Section with Messages -->
+<div id="epistle-section" class="hidden epistle-container">
+  <div class="message" id="message1">Thank you for everything you do. I love you. </div>
+  <div class="message" id="message2"> Enjoy your day, it only comes once in a year. </div>
+  <div class="message" id="message3">Happy Birthday my love, here's to many more memories.</div>
+</div>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
